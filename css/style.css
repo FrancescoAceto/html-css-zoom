@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: calc(100vh - 100px);
+    background-color: aqua;
+}
+
+.video{
+    position: relative;
+    background-color: black;
+    height: 100%;
+}
+
+.partecipants-video{
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 40px 20px;
+
+    height: 100%;
+    width: 100%;
+}
+
+.partecipants{  
+    height: calc(100% / 5);
+    width: calc(100% / 7);
+    padding: 10px;
+}
+
+.partecipants img{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgb(58, 58, 58);
+    height: 100px;
+    width: 100%;
+
+    z-index: 2;
+}
+
+.left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:40px;
+
+    text-align: center;
+
+    color: white;
+    margin-left: 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:40px;
+
+    text-align: center;
+   
+    color: white; 
+}
+
+.exit{
+    display: flex;
+    align-items: center;
+
+    padding: 40px 20px;
+
+    background-color: gray;
+    color: red;
+    text-align: center;
+}
+
+.Nome{
+    position: absolute;
+
+    background-color: rgba(142, 139, 139, 0.408);
+    color: white;
+}
+
+.speaker-view{
+    position: absolute;
+    top: 0;
+    right: 20px;
+
+    background-color: rgba(142, 139, 139, 0.408);
+    color: white;
+}
+
+.fullscreen{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    font-size: 10px;
+    padding: 3px;
+
+    background-color: rgba(142, 139, 139, 0.408);
+    color: white;
+}
+
+
+
+
